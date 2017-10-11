@@ -1,0 +1,4 @@
+env/*
+node_modules/*
+static/bundle.js
+*.pyc
