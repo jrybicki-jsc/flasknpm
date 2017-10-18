@@ -4,15 +4,17 @@ How to easily develop flask-based python web applications that use (external) ja
 libraries? Adding direct links to your templates is a natural option but in the
 long term, the maintenance is pretty overwhelming. Secondly, as in my case the
 application might not work properly if deployed without internet or behind
-a strict firewall.
+a strict firewall. Lastly, javascript underwent a lots of changes in the recent
+years and using the newest language features across all browsers, require
+more complex toolchains (e.g. using of babel).
 
 In this tutorial I will show a solution to that problem which uses `npm` (node package
 manager) and `webpack` tool. The tutorial should give you basic understanding of the
 tools rather than full deep dive into the aforementioned technologies.
 
 Prerequisites:
-* understanding of Flask, Python, and javascript
-* availability of npm
+* understanding of `Flask`, `Python`, and `javascript`
+* availability of `npm`
 
 ## Project structure
 Let us start with a simple directory structure for our application. We will create
